@@ -48,7 +48,6 @@ namespace RestApi2.Controllers
                 return Ok(sub);
             }
             return BadRequest("Invalid input!");
-
         }
 
         [HttpGet("mul/{firstNumber}/{secondNumber}")]
